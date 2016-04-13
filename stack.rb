@@ -30,3 +30,5 @@ stack = Stack.new
 stack.push(2)
 stack.push(3)
 print stack.stack
+stack.pop()
+print stack.stack
