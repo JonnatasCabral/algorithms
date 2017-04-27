@@ -5,8 +5,8 @@ class Queue(object):
         self.queue_len = 0
 
     def push(self, n):
-            self.queue_len += 1
             self.queue.insert(0, n)
+            self.queue_len += 1
 
     def pop(self):
         if not self.is_empty():

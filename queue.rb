@@ -15,7 +15,7 @@ class Queue
 	end
 	def is_empty
 		return true if @queue_count == 0
-		return false 
+		return false
 	end
 	def queue
 		return @queue

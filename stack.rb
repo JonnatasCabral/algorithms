@@ -23,7 +23,6 @@ class Stack
 		return true if @count == 0
 		return false
 	end
-		
 end
 
 stack = Stack.new
